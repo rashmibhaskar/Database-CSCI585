@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="s1">
+<LineStyle>
+<color>7f0000ff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f0000ff</color>
+<colorMode>normal</colorMode>
+<fill>1</fill>
+<outline>1</outline>
+</PolyStyle>
+</Style>
+<Placemark>
+    <name>Leavey</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.283350,34.021571</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>Home</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.286593,34.032224</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>Lyon Center</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.287916,34.024406</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>USC Bookstore</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.286474,34.021172</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>Tommy Trojan</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.285385,34.020543</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>Doheny</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.284211,34.020489</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>URC</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.285067,34.023248</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>Target</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.284163,34.025635</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>SGM</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.289008,34.021642</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>SAL</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.289474,34.019707</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>Fisher Museum</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.287315,34.018468</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>OHE</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.289698,34.020835</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>THH</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-118.284569,34.022403</coordinates></Point>
+</Placemark>
+
+<Placemark>
+    <name>ConvexHull</name>
+    <Style>
+        <LineStyle>
+            <color>ffff7d53</color>
+        </LineStyle>
+        <PolyStyle>
+            <color>80fe4d28</color>
+        </PolyStyle>
+    </Style>
+    <Polygon>
+        <outerBoundaryIs>
+            <LinearRing>
+                <coordinates>-118.287315,34.018468 -118.289474,34.019707 -118.289698,34.020835 -118.286593,34.032224 -118.284163,34.025635 -118.28335,34.021571 -118.284211,34.020489 -118.287315,34.018468</coordinates>
+            </LinearRing>
+        </outerBoundaryIs>
+    </Polygon>
+</Placemark>
+
+<Placemark>
+    <name>Neighbor1</name>
+    <description>Home to Target</description>
+    <Style>
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>2</width>
+        </LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.286593,34.032224 -118.284163,34.025635</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbor2</name>
+    <description>Home to Lyon Center</description>
+    <Style>
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>2</width>
+        </LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.286593,34.032224 -118.287916,34.024406</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbor3</name>
+    <description>Home to URC</description>
+    <Style>
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>2</width>
+        </LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.286593,34.032224 -118.285067,34.023248</coordinates>
+    </LineString>
+</Placemark>
+
+<Placemark>
+    <name>Neighbor4</name>
+    <description>Home to THH</description>
+    <Style>
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>2</width>
+        </LineStyle>
+    </Style>
+    <LineString>
+        <coordinates>-118.286593,34.032224 -118.284569,34.022403</coordinates>
+    </LineString>
+</Placemark>
+
+</Document></kml>
